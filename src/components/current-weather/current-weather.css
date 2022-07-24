@@ -1,0 +1,79 @@
+.weather {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: #fff;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/520d14100293125.5f0622ffc2cca.jpg');
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .top,
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .city {
+    font-weight: 600;
+    font-size:  50px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .weather-description {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .weather-icon {
+    width: 150px;
+    color: #fff;
+  }
+  
+  .temperature {
+    font-weight: 600;
+    font-size: 70px;
+    width: auto;
+    letter-spacing: -1px;
+    margin: 10px 0;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .details {
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  .parameter-row {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .parameter-label {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .parameter-value {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Edu QLD Beginner', cursive;
+  }
+  
+  .parameter-label.top {
+    border-bottom: 1px solid #fff;
+    font-family: 'Karla', sans-serif;
+  }
